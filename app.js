@@ -35,5 +35,7 @@ app.get('/blog', function(req, res) {
 	res.render('blog', {title:"My Blog", entries:blogEngine.getBlogEntries()});
 });
 
+var port = process.env.PORT || 3000;
+app.listen(port);
 
-app.listen(3000);
+console.log("Listening on port" + port);
