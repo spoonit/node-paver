@@ -1,26 +1,21 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title> {{title}} </title>
     <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	  <meta name="description" content =""> <meta name="author" content=""> 
-	  <link href="/bootstrap/css/bootstrap.css" rel="stylesheet"> 
-	  
-	  <style>
-	    body {
-	      padding-top:60px;
-	      }
-	  </style>
-
-	  <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content =""> <meta name="author" content=""> 
+    <link href="/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
   </head>
 
-<body>
+  <body>
+  <div class="navbar navbar-inverse navbar-static-top">
 
-
-  <div class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Header image
     <img src="/pics/header.png" alt="header" style="">
+    -->
+
     <div class="navbar-inner">
       <div class="container">
         <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -29,25 +24,23 @@
           <span class="icon-bar"></span>
         </button>
 
+	<!-- Collect the nav links, forms and other content for toggling -->
         <a class="brand" href="/">Scott Reynolds</a>
         <div class="nav-collapse collapse">
           <ul class="nav">
           <li class="active"><a href="/">Home</a></li>
 	  <li><a href="/stupidworld">Stupid World</a></li>
 	  <li><a href="/music">Music</a></li>
-	  <li><a href="http://scottreynolds.limitedrun.com/">Store</a></li>
+	  <li><a href="/store">Store</a></li>
 	  <li><a href="/blog">Blog</a></li>
           <li><a href="/about">About</a></li>
         </ul>
         </div>
-
       </div> 
     </div>
   </div>
 
-
-<br/> <br/> <br/> <br/> <br/>
-<br/> <br/> <br/> <br/> <br/>
+  <br/>
 
   <div class="container">
   
@@ -55,7 +48,9 @@
 
   </div> 
 
-  <script src="/public/js/jquery-2.0.2.min/js"></script>
-
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="/public/js/bootstrap.min.js"></script>
 </body>
 </html>
