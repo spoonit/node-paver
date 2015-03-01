@@ -43,7 +43,7 @@ body {
   margin: 20px 0;
 }
 
-.footer_text {
+.footer-text {
   text-color:#FFFFFF;
 }
 
@@ -53,8 +53,8 @@ body {
 
 #cf {
   position:relative;
-  width:450x;
-  height:480px;
+  width:400x;
+  height:460px;
   margin:0 auto;
 }
 
