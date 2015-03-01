@@ -1,0 +1,29 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  display:inline;
+  width:100px;
+  text-align:center;
+}
+
+li~li { border-left: 1px solid #000000 }
+
+.banner {
+  text-indent: 20px;
+  font-size: 2.5em;
+}
+
+.myNav {
+  text-decoration: none;
+  display: center;
+}
+
+.footer_text {
+  text-color:#FFFFFF;
+}
