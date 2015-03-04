@@ -9,10 +9,11 @@ li {
   float: left;
   display:inline;
   width:80px;
-  text-align:center;
 }
 
+/*
 li~li { border-left: 1px solid #000000 }
+*/
 
 .banner {
   text-indent: 20px;
